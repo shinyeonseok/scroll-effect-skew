@@ -1,0 +1,49 @@
+.site-main{
+	height: auto;
+	background-color: #eee;
+}
+.center{
+	position: relative;
+	top: 0;
+    left: 0;
+    width: 100%;
+    transform: translate(0,0);
+}
+.scroll-effect-section{
+	position: relative;
+	width:100%;
+	max-width: 600px;
+	padding:60px 40px;
+	margin:auto;
+	transition: transform 0.25s;
+	/* will-change: transform; */
+}
+.scroll-effect-section img{
+	display: block;
+	width: 100%;
+	margin-bottom:60px;
+	border-radius: 20px;
+}
+.scroll-effect-section h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color:#ccc;
+	margin-top:120px;
+	margin-bottom:120px;
+}
+/* ---------- */
+/* Responsive */
+/* ---------- */
+
+@media only screen and (max-width: 480px) {
+	.scroll-effect-section{
+		padding:40px 20px;
+	}
+	.scroll-effect-section h1{
+		font-size: 24px;
+		margin-top:80px;
+		margin-bottom:80px;
+	}
+}
